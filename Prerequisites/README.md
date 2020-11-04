@@ -1,6 +1,10 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drinkingkazu/slacml-kmi2020/HEAD?filepath=Prerequisites)
+
 # Preparation 
 
 Our workshop assumes some basic knowledge about Python programming language and scientific libraries for data analysis and visualization. The notebooks in this directory are prepared to cover the basics and get you started to learn basic tools for scientific data analysis in Python.
+
+You can run these notebook using the [Binder](https://mybinder.org/v2/gh/drinkingkazu/slacml-kmi2020/HEAD?filepath=Prerequisites)
 
 1. [Python-01-Jupyter](/00-Prerequisites/02-Preparation/Python-01-Jupyter.ipynb)
     - an introduction to `Jupyter` notebook which will be used as the coding/execution platform throughout the workshop.
@@ -14,7 +18,5 @@ Our workshop assumes some basic knowledge about Python programming language and 
     - an introduction to Pytorch, one of most popular machine learning libraries, covering a tensor data type, a data streaming tool, and a concept of computation graph    
 6. [Python-06-MNIST-CIFAR10](/00-Prerequisites/02-Preparation/Python-06-MNIST-CIFAR10.ipynb)
     - a brief overview on two public datasets we will use: MNIST and CIFAR10. Demonstrate how to download, access, visualize, and put into a DataLoader. 
-    
-See [how to use SLAC Open OnDemand](/00-Prerequisites/01-OnDemand) to run these notebooks using SLAC GPU cluster.
 
-Please feel free to ask a question to us via [slack #slacml-school](https://slac.slack.com/archives/C01B0B03HC3) or via [ancient text communication](mailto:kterao@slac.stanford.edu).
+Please feel free to ask a question to us via [kmi-2020 slack #ml-workshop]() or via [ancient text communication](mailto:kterao@slac.stanford.edu).
