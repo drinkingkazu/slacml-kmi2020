@@ -8,6 +8,6 @@ The materials are organized by a directory per topic listed below.
 
 We expect you to read, execute, and understand all notebooks in [Prerequisites](Prerequisites) **before the workshop**.
 
-Please throw questions at us on [slack]() or [email](mailto:kterao@slac.stanford.edu).
+Please throw questions at us on [slack](https://kmi-2020.slack.com/app_redirect?channel=ml-workshop) or [email](mailto:kterao@slac.stanford.edu).
 
 ## More to come...
