@@ -19,4 +19,4 @@ You can run these notebook using the [Binder](https://mybinder.org/v2/gh/drinkin
 6. [Python-06-MNIST-CIFAR10](/00-Prerequisites/02-Preparation/Python-06-MNIST-CIFAR10.ipynb)
     - a brief overview on two public datasets we will use: MNIST and CIFAR10. Demonstrate how to download, access, visualize, and put into a DataLoader. 
 
-Please feel free to ask a question to us via [kmi-2020 slack #ml-workshop]() or via [ancient text communication](mailto:kterao@slac.stanford.edu).
+Please feel free to ask a question to us via [kmi-2020 slack #ml-workshop](https://kmi-2020.slack.com/app_redirect?channel=ml-workshop) or via [ancient text communication](mailto:kterao@slac.stanford.edu).
