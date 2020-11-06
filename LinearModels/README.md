@@ -6,8 +6,8 @@ This directory contains a notebook to practice a linear classification and regre
 
 * [Introduction00-LinearModels.ipynb](/LinearModels/Introduction00-LinearModels.ipynb)
   * Implements simple linear models for toy dataset. You will program the models and optimization functions by yourself. A [solution](/LinearModels/Introduction00-LinearModels-Solution.ipynb) is available for an exercise.
-* [Introduction01-LinearModels-PyTorch.ipynb](/LinearModels/Introduction01-LinearModels-PyTorch.ipynb)
-  * This notebook re-implement linear models covered by the first notebook using PyTorch, which we will use in more advanced examples of neural networks. A [solution](/LinearModels/Introduction01-LinearModels-PyTorch-Solution.ipynb) is available for an exercise.
+* [Introduction01-LinearModels-Pytorch.ipynb](/LinearModels/Introduction01-LinearModels-Pytorch.ipynb)
+  * This notebook re-implement linear models covered by the first notebook using PyTorch, which we will use in more advanced examples of neural networks. A [solution](/LinearModels/Introduction01-LinearModels-Pytorch-Solution.ipynb) is available for an exercise.
 
 Notebooks will be covered during the introductory lectures in KMI school 2020.
 
