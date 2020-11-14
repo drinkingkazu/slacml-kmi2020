@@ -15,7 +15,7 @@ Below is an instruction for how to log into a computing server prepared for the 
 Texts are not always the best way to explain, so I also recorded movies for each section.
 
 ### 1. Login
-* Goto https://sdf.slac.stanford.edu in your favorite web browser. You are more than welcome to browse the documentation, but it is not necessarily.
+* Goto https://sdf.slac.stanford.edu in your web browser (sorry, Safari not supported). You are more than welcome to browse the documentation, but it is not necessarily.
 * Click on the "Login" button
 * You will be presented with a CILogon screen. Select **SLAC National Accelerator Laboratory** from the drop down list.
   * If you selected another authentication other than SLAC, you may be presented with an error message sayng that your user name could not be mapped. To rectify this, you will need to [logout (click this link)](https://sdf.slac.stanford.edu/logout) and try again.
