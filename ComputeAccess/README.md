@@ -13,6 +13,10 @@ We have prepared a temporary computing account for every participant. Everyone s
 Below is an instruction for how to log into a computing server prepared for the workshop, and the basics of how to use Jupyter lab, a browser-based application to navigate through SLAC computing environment.
 
 Texts are not always the best way to explain, so I also recorded movies for each section.
+- How to login ([movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331094000))
+- Launch jupyter ([movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331285000))
+- Verify it works ([movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331894000))
+- Prepare materials ([movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605332085000))
 
 ## 1. Login
 Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331094000).
