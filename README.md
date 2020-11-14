@@ -14,11 +14,11 @@ The materials are organized by a directory per topic listed below.
 
 Please throw questions at us on [slack](https://kmi-2020.slack.com/app_redirect?channel=ta) or [email](mailto:kterao@slac.stanford.edu).
 
-## LinearModels
+## LinearModels - Day 1
 
 [This](LinearModels) provides hands-on practice of linear regression models. The linear models are important foundations of machine learning models.
 
-## ClassicalEnsembleMethods
+## ClassicalEnsembleMethods - Day 2
 
 [This](ClassicalEnsembleMethods) provides hands-on examples of ensemble models including trees, forests and boosting.
 
