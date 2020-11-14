@@ -8,13 +8,15 @@ The [SLAC Shared Scientific Data Facility (SDF)](https://sdf.slac.stanford.edu) 
 
 We have prepared a temporary computing account for every participant. Everyone should have received the account information (user name and password) by an email. Please do not share your user name nor password with anyone else.
 
-## Getting started
+# Getting started
 
 Below is an instruction for how to log into a computing server prepared for the workshop, and the basics of how to use Jupyter lab, a browser-based application to navigate through SLAC computing environment.
 
 Texts are not always the best way to explain, so I also recorded movies for each section.
 
-### 1. Login
+## 1. Login
+Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331094000).
+
 * Goto https://sdf.slac.stanford.edu in your web browser (sorry, Safari not supported). You are more than welcome to browse the documentation, but it is not necessarily.
 * Click on the "Login" button
 * You will be presented with a CILogon screen. Select **SLAC National Accelerator Laboratory** from the drop down list.
@@ -25,7 +27,9 @@ You should be presented with the 'ondemand' frontend that looks like below.
 
 <img src="figures/ondemand.png" width="80%">
 
-### 2. Launch jupyter
+## 2. Launch jupyter
+Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331285000).
+
 - at the top of the 'ondemand' webpage that we just logged into, click on 'Interactive Apps'
 - Select 'Jupyter' from the list
 - You should be presented with a set of options to launch a Jupyter instance
@@ -58,7 +62,8 @@ If you get an error like `sbatch: error: Batch job submission failed: Invalid ac
 
 <img src="figures/jupyter_login.png" width="80%">
 
-### 3. Verify it works
+## 3. Verify it works
+Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605331894000).
 
 - Start a python interpreter console from the launcher
 
@@ -79,7 +84,8 @@ cuda: 0
 ```
 If you see any error, please contact [Kazu](mailto:kterao@slac.stanford.edu).
 
-### 4. Preparing the workshop materials
+## 4. Preparing the workshop materials
+Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1I7HgP8pHT1NX-SgYHCxbnCtz2uW_pqXPfg1_sBJK7IhWbgo7_SwSqC5xSxIhHCo.ieafVKov0x66nksp?startTime=1605332085000).
 
 - Next, let's checkout the [code repository](https://github.com/drinkingkazu/slacml-kmi2020) we will use for the workshop! Open a launcher tab by clicking "+" sign on the top of the file browser (on the left).
 
@@ -91,7 +97,7 @@ If you see any error, please contact [Kazu](mailto:kterao@slac.stanford.edu).
 
 - In the terminal, type the command below
 ```
-! git clone https://github.com/drinkingkazu/slacml-kmi2020
+git clone https://github.com/drinkingkazu/slacml-kmi2020
 ```
 ... and execute (hit enter key). You should see the following outputs.
 
