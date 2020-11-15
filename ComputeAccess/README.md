@@ -49,6 +49,8 @@ Follow the instruction below and/or [movie](https://stanford.zoom.us/rec/share/1
   - Total Memory to allocate: `19200`
   - Number of GPUs: `1`
   - GPU Type: `Nvidia Geforce 2080Ti`
+  - **Leave unchecked** "I would like to receive an email when the session starts"
+    - This email goes to one of my colleagues, not your email, as it is a temporary account
 - Click on the big blue 'Launch' button at the bottom.
 
 If you get an error like `sbatch: error: Batch job submission failed: Invalid account or account/partition combination specified`, this means that you do not have permissions to use the `ml` partition in slurm. Contact [Kazu](mailto:kterao@slac.stanford.edu) of one of TAs on the [Slack channel](https://kmi-2020.slack.com/app_redirect?channel=ta). While this problem persists, you can use the `shared` partition instead (or whichever you may be a part of).
