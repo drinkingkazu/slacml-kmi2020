@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def draw_confusion_matrix(labels, predictions, normalize=False):
+def plot_confusion_matrix(labels, predictions, normalize=False):
     plt.figure(figsize=(8,8))
     n_classes = len(np.unique(labels))
     hist, xbins, ybins, im = plt.hist2d(labels, predictions, range=[[-0.5,n_classes-0.5],[-0.5,n_classes-0.5]], bins=[n_classes,n_classes])
@@ -16,10 +16,13 @@ def draw_confusion_matrix(labels, predictions, normalize=False):
     plt.ylabel('Predicted class')
     plt.show()
     
-def plot_softmax(labels,softmax,class_names):
+
+def plot_softmax(labels,softmax,class_names=None):
     import numpy as np
     import matplotlib.pyplot as plt
     num_class   = len(softmax[0])
+    if class_names is None:
+        class_names = np.arange(num_class)
     assert num_class == len(class_names)
     unit_angle  = 2*np.pi/num_class
     xs = np.array([ np.sin(unit_angle*i) for i in range(num_class+1)])
@@ -37,9 +40,8 @@ def plot_softmax(labels,softmax,class_names):
         scores=softmax[idx]
         xpos=[np.sum(xs * s) for s in scores]
         ypos=[np.sum(ys * s) for s in scores]
-        plt.plot(xpos,ypos,linestyle='',marker='o',markersize=10,alpha=0.5,label='Label = {:d}'.format(label))
+        plt.plot(xpos,ypos,linestyle='',marker='o',markersize=10,alpha=0.5)
     axis.tick_params(axis='both',which='both',bottom=False,top=False,left=False,right=False,labelleft=False,labelbottom=False)
-    plt.legend()
     plt.show()
     
 def contingency_table(a, b, na=None, nb=None):

@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 from torch_geometric.data import Data as GraphData
 from torch_geometric.data import Dataset as GraphDataset
 
-def plot_scatter3d(voxels, labels={}, markersize=5, colorscale=None):
+def plot_scatter3d(voxels, labels={}, edge_index=None, clust_labels=None, markersize=5, colorscale=None):
     
     import copy
     import plotly.graph_objects as go # Plotly graph objects
@@ -37,6 +37,28 @@ def plot_scatter3d(voxels, labels={}, markersize=5, colorscale=None):
         
     if not len(graphs):
         graphs.append(blank)
+        
+    # Draw edges if requested
+    if edge_index is not None:
+        import scipy as sp
+        edge_vertices = []
+        clust_labels = np.unique(clust_labels, return_inverse=True)[1]
+        for i, j in edge_index:
+            vi, vj = voxels[clust_labels==i], voxels[clust_labels==j]
+            d12 = sp.spatial.distance.cdist(vi, vj, 'euclidean')
+            i1, i2 = np.unravel_index(np.argmin(d12), d12.shape)
+            edge_vertices.append([vi[i1], vj[i2], [None, None, None]])
+
+        edge_vertices = np.concatenate(edge_vertices)
+
+        graphs.append(go.Scatter3d(x = edge_vertices[:,0], y = edge_vertices[:,1], z = edge_vertices[:,2],
+                                   mode = 'lines',
+                                   name = 'Predicted edges',
+                                   line = dict(
+                                        width = 2,
+                                        color = 'Blue'
+                                    ),
+                                    hoverinfo = 'none'))
 
     iplot(graphs)
 
